@@ -106,6 +106,12 @@ These are key technical points and refined concepts to help you in learning Java
   assigning a double to a float without casting or f/F suffix causes a compilation error.
 
 
+### 18. Integer Type casting 
+
+* All integer literals in Java are of type int by default. To represent a long value, append L or l.
+  Implicit narrowing is allowed only if the value fits within the target type's range, otherwise a compilation error occurs.
+
+
 ### Why This Repo?
 This is a personal documentation project I built while preparing for Java-based interviews. It reflects real learning, project experience, and deep understanding of Java internals.
 
