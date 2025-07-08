@@ -1,4 +1,4 @@
-**Java Concepts and Highlights for Interviews**
+**Java Concepts and Highlights **
 
 These are key technical points and refined concepts to help you in learning Java :
 
@@ -98,6 +98,12 @@ These are key technical points and refined concepts to help you in learning Java
 
 * Java references are not like C++ pointers.
 * You can't perform pointer arithmetic or access raw memory addresses.
+
+
+### 17. Flaoting Number 
+
+* Float literals must be suffixed with f or F, because by default, decimal numbers are treated as double in Java. Since assignment evaluates from right to left,
+  assigning a double to a float without casting or f/F suffix causes a compilation error.
 
 
 ### Why This Repo?
