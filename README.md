@@ -110,6 +110,8 @@ These are key technical points and refined concepts to help you in learning Java
 
 * All integer literals in Java are of type int by default. To represent a long value, append L or l.
   Implicit narrowing is allowed only if the value fits within the target type's range, otherwise a compilation error occurs.
+* In Java, casting after integer division like (double)(a / b) results in loss of precision due to truncation.
+To get accurate decimal results, cast before division: (double) a / b.  
 
 
 ### Why This Repo?
